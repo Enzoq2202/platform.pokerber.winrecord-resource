@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/win-records") // Define o caminho base para este controlador
+@RequestMapping("/winrecord") // Define o caminho base para este controlador
 public class WinRecordResource {
 
     @Autowired

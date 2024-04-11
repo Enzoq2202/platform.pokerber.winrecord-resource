@@ -27,3 +27,7 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka/}
+
+store:
+  account:
+    url: http://localhost:8080 # Substitua pela URL real do serviço de contas
