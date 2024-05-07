@@ -31,3 +31,11 @@ eureka:
 store:
   account:
     url: http://localhost:8080 # Substitua pela URL real do serviço de contas
+
+
+springdoc:
+  api-docs:
+    path: /winrecord/v3/api-docs
+  swagger-ui:
+    path: /winrecord/swagger-ui.html
+  version: 3.0.0
